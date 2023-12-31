@@ -1,7 +1,8 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main()
+{
     int n;
     cin>>n;
     int arr[n];
@@ -14,7 +15,6 @@ int main(){
         if(currSum<0) currSum = 0;
         maxSum = max(maxSum,currSum);
     }
-    
     cout<<maxSum<<endl;
     return 0;
 }
