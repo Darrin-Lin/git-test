@@ -14,6 +14,7 @@ int main(){
         if(currSum<0) currSum = 0;
         maxSum = max(maxSum,currSum);
     }
+    
     cout<<maxSum<<endl;
     return 0;
 }
